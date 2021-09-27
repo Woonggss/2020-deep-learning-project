@@ -1,0 +1,25 @@
+## data augmentation
+from keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_array, load_img
+
+##ImageDataGenerator에 원하는 옵션들을 추가해주면 옵션들 적용하면서 랜덤하게 생성해줍니다.
+datagen = ImageDataGenerator(
+        rotation_range=40,
+        width_shift_range=0.2,
+        height_shift_range=0.2,
+        shear_range=0.2,
+        zoom_range=0.2,
+        horizontal_flip=True,
+        fill_mode= 'nearest')
+
+img = load_img(##)  # PIL 이미지, 이미지의 경로
+x = img_to_array(img)  # 이미지를 NumPy로 변환. 이미지 크기가 배열 크기로 유지됩니다.
+x = x.reshape((1,) + x.shape)  # batch 단위로 들어가야 하기 때문에, 앞에 1을 붙여서 형태로 4차원으로 만들어줍니다.
+
+# 아래 .flow() 함수는 임의 변환된 이미지를 배치 단위로 생성해서
+# 지정된 '이미지 경로' 폴더에 저장합니다.
+i = 0
+for batch in datagen.flow(x, batch_size=100,
+                          save_to_dir='/content/drive/My Drive/Augmentation_Test', save_prefix='wheel_test', save_format='jpeg'):
+    i += 1
+    if i > 30:
+        break  # 이미지 30장을 생성하고 마칩니다. 예문에서는 이미지 30장이지만, 원하는 갯수만큼 생성할 수 있습니다.
