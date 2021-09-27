@@ -52,8 +52,8 @@
 
 데이터 수집과 모델 구축 과정에 주로 기여하였습니다.
 
-* 데이터 수집 : selenium과 fake_usergent를 활용한 동적 이미지 크롤링 [해당 코드](https://github.com/Woonggss/2020-deep-learning-project/blob/main/Hyundai-Project-master/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%88%98%EC%A7%91/Netcarshow_Crawling-Seonmin%2CSewoong.ipynb)
-* 모델 구축 : keras를 활용한 딥러닝 모델 구축. Trasnfer Learning 기법을 활용하여, 기존에 있는 ResNet50 모델 구조를 이용해 프로젝트에 맞게 학습 모델을 구축 [해당 코드](https://github.com/Woonggss/2020-deep-learning-project/blob/main/Hyundai-Project-master/%ED%95%99%EC%8A%B5%20%EB%AA%A8%EB%8D%B8%20%EA%B5%AC%EC%B6%95/Transfer_Learning.ipynb)
+* 데이터 수집 : selenium과 fake_usergent를 활용한 동적 이미지 크롤링 [코드 링크](https://github.com/Woonggss/2020-deep-learning-project/blob/main/Hyundai-Project-master/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%88%98%EC%A7%91/Netcarshow_Crawling-Seonmin%2CSewoong.ipynb)
+* 모델 구축 : keras를 활용한 딥러닝 모델 구축. Trasnfer Learning 기법을 활용하여, 기존에 있는 ResNet50 모델 구조를 이용해 프로젝트에 맞게 학습 모델을 구축 [코드 링크](https://github.com/Woonggss/2020-deep-learning-project/blob/main/Hyundai-Project-master/%ED%95%99%EC%8A%B5%20%EB%AA%A8%EB%8D%B8%20%EA%B5%AC%EC%B6%95/Transfer_Learning.ipynb)
 
 ## 6. Trouble Shooting
 
