@@ -47,7 +47,7 @@
 * 데이터 전처리(이미지 처리) : cv2, PIL, matplotlib, keras
 * 모델 구축 : keras
 * 휠 유사도 판별 : sklearn(scikit-learn), skimage(scikit-image)
-
+* GCP(Google Cloud Platform)
 ## 5. 주로 기여한 작업
 
 데이터 수집과 모델 구축 과정에 주로 기여하였습니다.
