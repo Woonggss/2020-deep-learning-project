@@ -44,7 +44,7 @@
 
 * 모든 코드는 python으로 작성되었습니다.
 * 데이터 수집 : beautifulsoup, selenium, fake_useragent, pyautogui
-* 데이터 전처리 : cv2, PIL, matplotlib, keras
+* 데이터 전처리(이미지 처리) : cv2, PIL, matplotlib, keras
 * 모델 구축 : keras
 * 휠 유사도 판별 : sklearn(scikit-learn), skimage(scikit-image)
 
